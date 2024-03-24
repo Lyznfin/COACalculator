@@ -50,7 +50,7 @@ class Calculator:
     def days(self, value: int):
         if not isinstance(value, int):
             raise TypeError("Value must be an integer")
-        self.__days= value
+        self.__days = value
 
     def iterator(self, goal) -> None:
         def calculate():
