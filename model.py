@@ -58,7 +58,8 @@ class Calculator:
             self.days += 1
             if self.days % 30 == 0:
                 self.add_monthly_box()
-    
+                
+        #could use some match case and kwarg
         if goal == "collector":
             target: int = 3780 - 465 
             # 3780 is the price for 1 if user utilizing the 50% daily discount
